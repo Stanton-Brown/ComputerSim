@@ -1,4 +1,4 @@
-ComputerSim
+#ComputerSim
 
 Overview
 This project simulates a simple computer system, consisting of a Central Processing Unit (CPU) and Memory, with a focus on understanding inter-process communication (IPC) and various low-level concepts crucial for proper operating system functionality. These concepts include processor interaction with main memory, processor instruction behavior, registers, stack processing, procedure and system calls, interrupts, memory protection, and I/O. Developed as part of the CS 4348 Operating Systems course at the University of Texas at Dallas.
