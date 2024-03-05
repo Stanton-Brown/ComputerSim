@@ -1,20 +1,19 @@
-# ComputerSim
+# ComputerSim README
 
 Overview
 This project simulates a simple computer system, consisting of a Central Processing Unit (CPU) and Memory, with a focus on understanding inter-process communication (IPC) and various low-level concepts crucial for proper operating system functionality. These concepts include processor interaction with main memory, processor instruction behavior, registers, stack processing, procedure and system calls, interrupts, memory protection, and I/O. Developed as part of the CS 4348 Operating Systems course at the University of Texas at Dallas.
 
-Usage:
-    To run the program, execute the following command in the terminal:
-    
-    ./program_name input_file timer_value
-    
-    program_name: The name of the compiled program.
-    input_file: The name of the file containing the program to be executed.
-    timer_value: An integer specifying the timer constraint for interrupt handling.
-    
-Implementation:
+## Usage:
+To run the program, execute the following command in the terminal:
+./program_name input_file timer_value
 
-CPU:
+program_name: The name of the compiled program.
+input_file: The name of the file containing the program to be executed.
+timer_value: An integer specifying the timer constraint for interrupt handling.
+    
+## Implementation:
+
+### CPU:
     The CPU class encompasses functions for instruction execution, interrupt handling, and memory protection. The project follows an object-oriented approach to design the CPU and      Memory modules.
 
     Instruction Execution:
