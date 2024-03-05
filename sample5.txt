@@ -1,0 +1,84 @@
+//This program will print the first 46 fibbonaci numbers.
+//It utilizes a stack to store the count, latest fib, and 
+//previous fib in that order from top of stack to bottom. 
+//Below is an illustration of how the variablse are stored:
+
+//  |     count    |
+//  |  latest fib  |
+//  | previous fib |
+
+1   //Load first two fib numbers
+1
+9   //Print first
+1
+27  //Push to stack
+1   //load new line
+10
+9   //Print new line
+2
+
+1   //Load first two fib numbers
+1
+9   //Print first
+1
+27  //Push to stack
+1   //load new line
+10
+9   //Print new line
+2
+
+1   //Load 46 into AC
+46
+
+14  //Load AC into X
+26  //DecX to account for the first 2 previous fibs printed
+26
+15  //Load X back into AC
+27  //Push to stack
+
+
+20  //jump
+600
+
+.600
+28  //Pop the fib counter
+
+14  //Copy to X
+26  //Decrement X 
+
+28  //Pop previous fib number     MUST PUSH AGAIN first!
+16  //Copy to Y
+
+28  //Pop old fib number               
+11  //Add previous(Y) to old(AC) for new fib          
+
+9   //Print new fib 
+1
+
+7   //Store new fib
+333
+
+17  //Copy the now old fib to AC
+27  //push the now old fib number
+
+1   //load new line
+10
+
+9   //Print new line
+2
+
+2   //load the new fib 
+333
+
+27  //push new fib 
+
+15  //AC = count
+27  //push count
+
+22  //loop until we have printed all fibs up to count
+600 //jump back to begining of loop
+
+50  //exit
+
+.1000    
+30  //incase of timer iterupt just return
